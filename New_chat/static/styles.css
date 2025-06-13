@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://files.oaiusercontent.com/file-yT93hxWWt6OKk6YDP2eRg63C?se=2024-12-03T13%3A04%3A48Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D27dc3428-fc12-4910-b0ba-cc272be37ff7.webp&sig=pwxUsTNEmrmnbLMChbwOzB7ZG6dRjCeOpr/gPJLgnGI%3D') no-repeat center center fixed;
+    background-size: cover;
+    
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    background: #158dc9bc;
+    width: 100%;
+    max-width: 1000px; /* Increased max-width for a larger container */
+    height: 600px; /* Added height for a taller container */
+    padding: 20px; /* Increased padding for a spacious look */
+    border-radius: 50px;
+    box-shadow: 0 10px 30px rgba(12, 5, 5, 0.5);
+    border: 5px solid black; /* Added black border */
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chat-box {
+    background: hwb(195 2% 95%);
+    height: 400px; /* Increased height */
+    width: 975px; /* Increased width */
+    overflow-y: auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.input-area {
+    display: flex;
+    width: 975px; /* Match the chat box width */
+    margin-top: 10px; /* Add spacing above the input area */
+}
+
+input {
+    flex: 1;
+    padding: 25px; /* Increased padding for larger height */
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    font-size: 25px; /* Adjust font size for better readability */
+}
+
+
+button {
+    background: #41b73ff4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #285db3;
+}
+
+.user-message {
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #dce5ee;
+    border-radius: 10px;
+    max-width: 80%;
+    margin-left: auto;
+    color: rgb(12, 2, 2);
+    font-size: 20px;
+}
+
+.bot-message {
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #d3d3e5;
+    border-radius: 10px;
+    max-width: 80%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}

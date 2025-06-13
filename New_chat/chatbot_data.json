@@ -1,0 +1,37 @@
+{
+    "responses": [
+        {"user_input": "hai", "bot_response": "Hello! How can I assist you today?"},
+        {"user_input": "hello", "bot_response": "Hi there! Need help with your travel plans?"},
+        {"user_input": "flight", "bot_response": "Sure! I can help you find flights. Please provide the origin and destination."},
+        {"user_input": "hotel", "bot_response": "Looking for hotels? Please let me know your destination."},
+        {"user_input": "weather", "bot_response": "I can provide weather updates for your destination. Where are you planning to go?"},
+        {
+            "user_input": "I want to travel from India to USA",
+            "bot_response": "Flight details: Air India Express departs at 10:00 AM for $500. Hotel in USA: Best Western, Price per night: $120. Weather in USA: Cold, 5°C."
+        },
+        {
+            "user_input": "I want to travel from India to UK",
+            "bot_response": "Flight details: British Airways departs at 1:30 PM for $400. Hotel in UK: London Hilton, Price per night: $150. Weather in UK: Mild, 15°C."
+        },
+        {
+            "user_input": "I want to travel from India to Canada",
+            "bot_response": "Flight details: Air Canada departs at 6:00 PM for $600. Hotel in Canada: Toronto Marriott, Price per night: $100. Weather in Canada: Snowy, -5°C."
+        },
+        {
+            "user_input": "I want to travel from India to Australia",
+            "bot_response": "Flight details: Qantas Airways departs at 9:00 AM for $700. Hotel in Australia: Sydney Grand, Price per night: $180. Weather in Australia: Sunny, 25°C."
+        },
+        {
+            "user_input": "I want to travel from USA to Germany",
+            "bot_response": "Flight details: Lufthansa departs at 11:30 AM for $550. Hotel in Germany: Berlin Palace, Price per night: $130. Weather in Germany: Chilly, 10°C."
+
+    
+
+
+        }
+
+       
+
+
+    ]
+}
